@@ -1,5 +1,48 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: sans-serif;
+  background-color: green;
+  padding: 20px;
+}
 
-body{
-    background: white;
+.controls {
+  margin-bottom: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 60px;
+  height: 90px;
+  margin: 5px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 24px;
+  position: relative;
+}
+
+.suit {
+  position: absolute;
+  font-size: 14px;
+}
+
+.top-left {
+  top: 4px;
+  left: 6px;
+}
+
+.bottom-right {
+  bottom: 4px;
+  right: 6px;
+}
+
+.log {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-height: 200px;
+  overflow-y: auto;
 }
